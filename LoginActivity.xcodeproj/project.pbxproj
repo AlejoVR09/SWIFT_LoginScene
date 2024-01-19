@@ -16,6 +16,8 @@
 		559DFF4F2B5874B100E2FEDB /* LoginActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DFF4E2B5874B100E2FEDB /* LoginActivityTests.swift */; };
 		559DFF592B5874B100E2FEDB /* LoginActivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DFF582B5874B100E2FEDB /* LoginActivityUITests.swift */; };
 		559DFF5B2B5874B100E2FEDB /* LoginActivityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DFF5A2B5874B100E2FEDB /* LoginActivityUITestsLaunchTests.swift */; };
+		559DFF692B5874FE00E2FEDB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DFF682B5874FE00E2FEDB /* LoginViewController.swift */; };
+		559DFF6B2B58751800E2FEDB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DFF6A2B58751800E2FEDB /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		559DFF542B5874B100E2FEDB /* LoginActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		559DFF582B5874B100E2FEDB /* LoginActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginActivityUITests.swift; sourceTree = "<group>"; };
 		559DFF5A2B5874B100E2FEDB /* LoginActivityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginActivityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		559DFF682B5874FE00E2FEDB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		559DFF6A2B58751800E2FEDB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		559DFF362B5874AC00E2FEDB /* LoginActivity */ = {
 			isa = PBXGroup;
 			children = (
+				559DFF672B5874CD00E2FEDB /* login */,
 				559DFF372B5874AC00E2FEDB /* AppDelegate.swift */,
 				559DFF392B5874AC00E2FEDB /* SceneDelegate.swift */,
 				559DFF3B2B5874AC00E2FEDB /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				559DFF5A2B5874B100E2FEDB /* LoginActivityUITestsLaunchTests.swift */,
 			);
 			path = LoginActivityUITests;
+			sourceTree = "<group>";
+		};
+		559DFF672B5874CD00E2FEDB /* login */ = {
+			isa = PBXGroup;
+			children = (
+				559DFF682B5874FE00E2FEDB /* LoginViewController.swift */,
+				559DFF6A2B58751800E2FEDB /* LoginView.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559DFF692B5874FE00E2FEDB /* LoginViewController.swift in Sources */,
 				559DFF3C2B5874AC00E2FEDB /* ViewController.swift in Sources */,
 				559DFF382B5874AC00E2FEDB /* AppDelegate.swift in Sources */,
+				559DFF6B2B58751800E2FEDB /* LoginView.swift in Sources */,
 				559DFF3A2B5874AC00E2FEDB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
